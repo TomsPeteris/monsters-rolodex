@@ -1,0 +1,23 @@
+/* Mobile */
+.card-list {
+	width: 85vw;
+	margin: 0 auto;
+	padding-bottom: 30px;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 20px;
+}
+
+/* Tablet */
+@media only screen and (min-width: 600px) {
+	.card-list {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+/* Desktop */
+@media only screen and (min-width: 1000px) {
+	.card-list {
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+}
